@@ -1,0 +1,41 @@
+
+.payment-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center; /* Center the text inside the container */
+}
+
+.payment-container h1 {
+    color: #333;
+    text-align: center;
+}
+
+.payment-container p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.payment-button {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0073e6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center; /* Center the text inside the button */
+}
+
+.payment-button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,54 @@
+
+.delivery-container {
+    display:contents;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    width: 100%;
+    margin: 220px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center; /* Center the text inside the container */
+}
+
+.delivery-container h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.book-detail {
+    color: #555;
+    margin: 10px 0;
+}
+
+.message {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #333;
+    background-color: #e0f7fa; /* Light blue background for the message */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.home-button {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    margin: 20px auto;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0073e6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center; /* Center the text inside the button */
+}
+
+.home-button:hover {
+    background-color: #0056b3;
+}

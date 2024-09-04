@@ -1,0 +1,42 @@
+.home-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px; /* Space below the Navbar */
+    padding-bottom: 20px; /* Space above the Footer */
+}
+
+.card {
+    width: 150px;
+    height: 200px; /* Adjust height to fit image and text */
+    margin: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures title is at the bottom */
+    align-items: center;
+    overflow: hidden; /* Keeps everything neat */
+}
+
+.card img {
+    width: 100%; /* Ensures image covers the card width */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes bottom space/gap */
+}
+
+.card:hover {
+    transform: scale(1.4); /* Subtle scaling effect on hover */
+    cursor: pointer;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card-tagline {
+    font-size: 12px;
+}

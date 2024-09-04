@@ -1,0 +1,102 @@
+[
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "condition": "New",
+        "rentalPrice": 15,
+        "description": "A classic piece of American literature, set in the Roaring Twenties.",
+        "owner": "62bc5b10d4350400123f5a7c",
+        "genre": ["Classic", "Novel"],
+        "createdAt": "2023-09-01T00:00:00.000Z"
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "condition": "Used - Good",
+        "rentalPrice": 8,
+        "description": "A dystopian social science fiction novel and cautionary tale.",
+        "owner": "62bc5b10d4350400123f5a7d",
+        "genre": ["Fiction", "Dystopian"],
+        "createdAt": "2023-09-02T00:00:00.000Z"
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "condition": "Like New",
+        "rentalPrice": 12,
+        "description": "A novel of racial injustice in a fictional town in the American South.",
+        "owner": "62bc5b10d4350400123f5a7e",
+        "genre": ["Fiction", "Drama"],
+        "createdAt": "2023-09-03T00:00:00.000Z"
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "condition": "New",
+        "rentalPrice": 10,
+        "description": "A romantic novel of manners.",
+        "owner": "62bc5b10d4350400123f5a7f",
+        "genre": ["Romance", "Classic"],
+        "createdAt": "2023-09-04T00:00:00.000Z"
+    },
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "condition": "Used - Acceptable",
+        "rentalPrice": 5,
+        "description": "A children's fantasy novel and prelude to The Lord of the Rings.",
+        "owner": "62bc5b10d4350400123f5a80",
+        "genre": ["Fantasy", "Adventure"],
+        "createdAt": "2023-09-05T00:00:00.000Z"
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "condition": "Used - Very Good",
+        "rentalPrice": 7,
+        "description": "A novel about teenage angst and alienation.",
+        "owner": "62bc5b10d4350400123f5a81",
+        "genre": ["Fiction", "Classic"],
+        "createdAt": "2023-09-06T00:00:00.000Z"
+    },
+    {
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "condition": "New",
+        "rentalPrice": 14,
+        "description": "A dystopian novel about a futuristic society based on pleasure without moral repercussions.",
+        "owner": "62bc5b10d4350400123f5a82",
+        "genre": ["Dystopian", "Science Fiction"],
+        "createdAt": "2023-09-07T00:00:00.000Z"
+    },
+    {
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "condition": "Used - Good",
+        "rentalPrice": 9,
+        "description": "An epic sea story of Captain Ahab's voyage in pursuit of a white whale.",
+        "owner": "62bc5b10d4350400123f5a83",
+        "genre": ["Adventure", "Classic"],
+        "createdAt": "2023-09-08T00:00:00.000Z"
+    },
+    {
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "condition": "Like New",
+        "rentalPrice": 20,
+        "description": "A historical novel about the French invasion of Russia.",
+        "owner": "62bc5b10d4350400123f5a84",
+        "genre": ["Historical Fiction", "Classic"],
+        "createdAt": "2023-09-09T00:00:00.000Z"
+    },
+    {
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "condition": "New",
+        "rentalPrice": 11,
+        "description": "A psychological novel exploring the moral dilemmas of guilt, punishment, and redemption.",
+        "owner": "62bc5b10d4350400123f5a85",
+        "genre": ["Fiction", "Philosophical"],
+        "createdAt": "2023-09-10T00:00:00.000Z"
+    }
+]

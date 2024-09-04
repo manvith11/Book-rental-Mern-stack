@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    list-style: none;
+    margin: 0;
+}
+
+.navbar li {
+    position: relative; /* Add this for dropdown positioning */
+    padding: 20px 35px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 22px;
+}
+
+.navbar li:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    border-radius: 22px;
+    font-weight: bold;
+}
+
+.navbar li:hover > a {
+    color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0; /* Align dropdown to the right */
+    border-radius: 5px;
+    overflow: hidden; /* Ensures border radius applies to entire dropdown */
+}
+
+.dropdown-content .log {
+    color: red;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dropdown-content .log:hover {
+    background-color: red;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar a {
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    color: white;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.navbar li:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    border-radius: 22px;
+}

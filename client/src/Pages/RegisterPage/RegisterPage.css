@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.card1{
+    margin: 80px auto;
+    max-width: 400px;
+    height: 450px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    padding: 20px;
+    border-bottom: 1px solid gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+    padding: 20px;
+    
+}
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center all items horizontally */
+    padding: 10px 20px;
+    background-color: #282c34;
+    color: white;
+    position: relative; /* Make the Navbar relative for absolute positioning */
+  }
+  
+  .logo {
+    height: 70px;
+    position: absolute; /* Position logo absolutely */
+    left: 20px; /* Adjust as necessary */
+  }
+  
+  .project-title {
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.card1{
+    border: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: #0066ffcb;
+}
+
+a:hover {
+    color: #000dff;
+    cursor: pointer;
+}
+
+.RegisterBtn {
+    background-color: rgb(210, 205, 205);
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    font-weight: bold;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.RegisterBtn:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+/* .register-content{
+    background-color: black;
+    height: 100vh;
+} */
+.t1, .t2, .t3 {
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin: 10px 0;
+}
+
+.t1, .t2 , .t3:selection{
+    border: none;
+}
+
+p {
+    font-style: italic;
+    font-weight: 700;
+}

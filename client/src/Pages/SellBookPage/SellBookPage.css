@@ -1,0 +1,128 @@
+/* SellBook.css */
+.sellBookContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f4f4f9;
+}
+
+.post-title{
+    text-align: center;
+    padding: 15px;
+}
+.sellBookForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.sellBookForm input,
+.sellBookForm textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.genre-selector {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.genre-button {
+    margin: 5px;
+    background-color: black;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s;
+    border-radius: 4px;
+}
+
+.genre-button:hover {
+    scale: 1.1;
+    background-color:  rgb(210, 205, 205);;
+    font-weight: bold;
+    color: black;
+}
+
+.selected-genres {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.selected-genre {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.selected-genre span {
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.error-message {
+    text-align: center;
+    color: red;
+    margin-top: 2px;
+    padding: 5px;
+}
+
+.postbookbtn{
+    background-color: rgb(210, 205, 205);
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    font-weight: bold;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 20px;
+    
+}
+
+.postbookbtn:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.condition-selector {
+    margin-bottom: 15px;
+}
+
+.condition-button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #f4f4f9;
+    border: none;
+    cursor: pointer;
+    font: bolder;
+    border-radius: 2px;
+}
+
+.condition-button.selected {
+    background-color: black;
+    color: white;
+    scale: 1.2;
+}
+
